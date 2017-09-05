@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import org.foobarspam.business.Correlacion;
 import org.foobarspam.business.Diario;
 import org.foobarspam.business.Registro;
+import org.foobarspam.business.TablaEvento;
 
 public class Main {
 
@@ -87,6 +88,16 @@ public class Main {
 		
 		Correlacion correlacion = new Correlacion();	
 		correlacion.phi();
+		
+		
+		//Clase IV
+		System.out.println("\n\n///////////////////");
+		System.out.println("Clase IV. Tabla Evento\n");
+		
+		TablaEvento tablaEvento = new TablaEvento ();
+		tablaEvento.tablaPara("Percebes", diario);
+		tablaEvento.mostrarTabla();
+		
 		
 
 	}
