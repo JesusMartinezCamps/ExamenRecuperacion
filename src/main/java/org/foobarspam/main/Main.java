@@ -2,6 +2,7 @@ package org.foobarspam.main;
 
 import java.util.ArrayList;
 
+import org.foobarspam.business.Correlacion;
 import org.foobarspam.business.Diario;
 import org.foobarspam.business.Registro;
 
@@ -66,7 +67,7 @@ public class Main {
 		registroDiario2.setArrayEventos(array2);
 		diario.incluirRegistro(registroDiario2);
 		
-		//Array2
+		//Array3
 		Registro registroDiario3 = new Registro();
 		ArrayList<String> array3 = new ArrayList<String>();
 		array3.add("Finde");
@@ -79,11 +80,15 @@ public class Main {
 		diario.incluirRegistro(registroDiario3);
 		diario.mostrarDiario();
 		
-		//Prints
+
+		//Clase III. Correlacion
+		System.out.println("\n\n///////////////////");
+		System.out.println("Clase III. Correlacion\n");
+		
+		Correlacion correlacion = new Correlacion();	
+		correlacion.phi();
 		
 
-
 	}
-
 
 }
