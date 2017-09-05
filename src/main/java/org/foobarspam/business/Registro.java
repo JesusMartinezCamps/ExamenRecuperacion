@@ -35,6 +35,6 @@ public class Registro {
 		}
 		System.out.println(event);
 
-		System.out.println("\nEstado de pulpo: " + getEstadoPulpo());	
+		System.out.println("Estado de pulpo: " + getEstadoPulpo() + "\n");	
 	}
 }

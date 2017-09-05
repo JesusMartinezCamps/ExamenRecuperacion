@@ -27,8 +27,7 @@ public class RegistroTests {
 			System.out.println(event);
 		}
 		
-	}
-	
+	}	
 	
 	@Test
 	public void Registro_getEstadoPulpo_False() {
