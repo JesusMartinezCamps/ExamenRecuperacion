@@ -28,14 +28,13 @@ public class Registro {
 	
 	//Methods
 	public void printEventos(ArrayList<String> eventos) {
-		System.out.println("Lista de eventos:");
-		for(String evento : eventos) {
-			System.out.println(evento);
-		}
+		String event = "Lista de eventos:";
 		
-		System.out.println("\nEstado de pulpo:");
-		System.out.println(getEstadoPulpo());
-			
-	}
+		for(String evento : eventos) {
+			event = event + " " + evento + ",";
+		}
+		System.out.println(event);
 
+		System.out.println("\nEstado de pulpo: " + getEstadoPulpo());	
+	}
 }
